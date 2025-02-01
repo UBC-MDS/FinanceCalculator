@@ -122,23 +122,23 @@ from financecalculator2025.n_periods import n_periods
 ```
 payment = calculate_contribution(principal=20000, future_value=0, annual_rate=5, n_periods=24)
 ```
-
+  
 - If you need to calculate future value of an investment, you can use `future_value` function:
 
 ```
 future_value = future_value(principal=5000, annual_rate=7, n_periods=36, contribution=200)
 ```
 
-<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/fv_df_output.png?raw=true">
-
+<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/fv_df_output.png?raw=true" height="75">
+  
 - If you need to calculate present value for a target amount, you can use `present_value` function:
 
 ```
 present_value = present_value(principal=5000, annual_rate=4, n_periods=120, contribution=50)
 ```
 
-<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/pv_df_output.png?raw=true">
-
+<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/pv_df_output.png?raw=true" height="75">
+  
 -  If you need to calculate the number of months to reach a goal, , you can use `n_periods` function:
 
 ```

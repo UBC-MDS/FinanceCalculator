@@ -80,9 +80,5 @@ def n_periods(principal, annual_rate, future_value, contribution=0):
     # return a positive integar
     n_periods =  max(1, round(n_periods))
 
-    # warning: if n_periods less than 5
-    if 1 <= n_periods <= 5:
-        warnings.warn("The number of periods is unusually low. Did you accidentally input years instead of months?", UserWarning)
-
     return n_periods
 
