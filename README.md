@@ -129,7 +129,7 @@ payment = calculate_contribution(principal=20000, future_value=0, annual_rate=5,
 future_value = future_value(principal=5000, annual_rate=7, n_periods=36, contribution=200)
 ```
 
-<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/fv_df_output.png?raw=true" height="70">
+<img src="https://github.com/UBC-MDS/FinanceCalculator2025/blob/main/img/fv_df_output.png?raw=true" height="65">
   
 **If you need to calculate present value for a target amount, you can use `present_value` function:**
 
