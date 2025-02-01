@@ -1,9 +1,39 @@
 # CHANGELOG
 
+### Bug Fixes
+
+- final small touches
+    ([`1ba5796`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/1ba5796b9cc7635c971a3a9617a4df4be93bd447))
+
+- update the poetry.lock as pytest-benchmark is added
+    ([`7069d0b`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/7069d0b45c78cdd663ea5199f1bb780b4c26ee88))
+
+### Test
+
+- add performance benchmark test and test result, update README and pyproject
+   ([`daa7f19`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/daa7f197c3fab5c93c13be169eafebb4830609b7))
+
+### Documentation
+
+- Update README to add package version badges
+   ([`8a3c7e1`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/8a3c7e12e4bd5fea1093ad09da16ac7ff88997cc))
+
+- update README to add vignettes/step-by-step tutorials
+   ([`0a6e1e3`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/0a6e1e306ffdf29ae23f899f70c2368cf9d7ad81))
+   
+- update subtittle in example doc to make it more clear with realted section
+   ([`66f890d`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/66f890d2f6fb740a8d07e1aaa470d056a327807d))
+
+- update README to add package links to PyPI
+   ([`bb88f09`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/66f890d2f6fb740a8d07e1aaa470d056a327807d))
+
 
 ## v0.2.2 (2025-01-31)
 
 ### Bug Fixes
+
+- update test pmt function
+  ([`fb9f364`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/fb9f364d67259328ab8827da2550161c608829cd))
 
 - All tests are running with no warnings, thank you Shell
   ([`3f7c0be`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/3f7c0be80bbc19bb960fe73ca765324205308342))
@@ -29,14 +59,6 @@
 - Updated README to include badges for ci-cd passing, and python version
    ([`782d1d3`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/782d1d3a868d6bf0467b58db8c6024c83bd219d7))
 
-- Update README to add package version badges
-   ([`8a3c7e1`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/8a3c7e12e4bd5fea1093ad09da16ac7ff88997cc))
-
-- update README to add vignettes/step-by-step tutorials
-   ([`0a6e1e3`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/0a6e1e306ffdf29ae23f899f70c2368cf9d7ad81))
-
-- add performance benchmark test and test result, update README and pyproject
-   ([`daa7f19`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/daa7f197c3fab5c93c13be169eafebb4830609b7))
 
 ## v0.2.1 (2025-01-30)
 
@@ -69,7 +91,7 @@
 
 ## v0.2.0 (2025-01-28)
 
-### Features
+### Documentation
 
 - Updated doc icon link
   ([`9f990b8`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/9f990b825ef55fac1d5b7b3985dfff457374d3c6))
@@ -86,23 +108,11 @@
   ([`e8a66fe`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/e8a66fe9ead85140d093b284db50fefcb62b0dbb))
 
 
-## v0.1.1 (2025-01-27)
+## v0.1.0 (2025-01-27) - v0.1.1 (2025-01-27)
 
-### Bug Fixes
-
-- Added middle initial of author
-  ([`3ea1f5a`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/3ea1f5a4de061c704304d051c95282b6403b649f))
-
-
-## v0.1.0 (2025-01-27)
-
-### Features
-
-- Updated github file test
-  ([`0ff98c6`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/0ff98c68e63d4216997abf6c448e5a1231400ff5))
-
-- Updated github readme
-  ([`b30a25a`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/b30a25a173ef5a36089ede157cbdd870be28857e))
-
+- No change just test the workflow
 
 ## v0.0.0 (2025-01-27)
+
+- Issue69 fixed, added Developer Note to README addressing issues with test suite instructions
+  ([`9aea9ef`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/9aea9efcae98c07ab3d1c826eed41a624b609f66))
