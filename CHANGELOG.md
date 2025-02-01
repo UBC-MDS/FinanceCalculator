@@ -8,6 +8,35 @@
 - All tests are running with no warnings, thank you Shell
   ([`3f7c0be`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/3f7c0be80bbc19bb960fe73ca765324205308342))
 
+- Issue67 and 68, added more documentation to n_periods and present_value tests
+  ([`dc3661f`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/dc3661fe4a4b5086dbf018d7540ecad17c149987))
+
+- Issue56 fixed, updated README so function and package naming is more consistent, with backticks
+  ([`d5d000a`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/d5d000a40d5bf63bd80f20e637c6dea012078e2c))
+
+- addressed feedback by adding Documentation link to readme file
+  ([`eb3626e`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/eb3626e131b408c778d696eb54809bb6cd9f58ad))
+
+- Addressed feedback by updating headers in readthedocs
+   ([`92eaa6a`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/92eaa6a1c0785598811ab1016491f492759527c3)) 
+
+- Addressed feedback by adding outputs for future_value and present_value to README usage section
+   ([`0477a60`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/0477a60684a11bcc258024e55da4550adc9fada1)) 
+
+- Addressed feedback to increase n_periods code coverage
+   ([`c3da96b`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/c3da96bdf8d4f09201025e8ccf050ebcdd31ce0f))
+
+- Updated README to include badges for ci-cd passing, and python version
+   ([`782d1d3`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/782d1d3a868d6bf0467b58db8c6024c83bd219d7))
+
+- Update README to add package version badges
+   ([`8a3c7e1`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/8a3c7e12e4bd5fea1093ad09da16ac7ff88997cc))
+
+- update README to add vignettes/step-by-step tutorials
+   ([`0a6e1e3`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/0a6e1e306ffdf29ae23f899f70c2368cf9d7ad81))
+
+- add performance benchmark test and test result, update README and pyproject
+   ([`daa7f19`](https://github.com/UBC-MDS/FinanceCalculator2025/commit/daa7f197c3fab5c93c13be169eafebb4830609b7))
 
 ## v0.2.1 (2025-01-30)
 

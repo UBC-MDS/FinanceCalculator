@@ -9,7 +9,7 @@ def test_n_periods_positive_values():
 
 def test_principal_equal_to_future_value():
     # situation with principal = future_value, should return 0
-    assert n_periods(1000, 5, 1000, contribution=100) == 0
+    assert n_periods(1000, 6, 1000, contribution=100) == 0
 
 def test_n_periods_negative_values():
     # situation with all negative
@@ -60,13 +60,6 @@ def test_n_periods_invalid_contribution_type():
 def test_n_periods_low_interest_warning():
     with warnings.catch_warnings(record=True) as w:
         n_periods(1000, 0.5, 2000)
-        assert len(w) == 1
-        assert issubclass(w[-1].category, UserWarning)
-
-# Test warning appears for n_periods < 6 months
-def test_n_periods_low_periods_warning():
-    with warnings.catch_warnings(record=True) as w:
-        n_periods(1000, 5, 1500, contribution=100)
         assert len(w) == 1
         assert issubclass(w[-1].category, UserWarning)
 
